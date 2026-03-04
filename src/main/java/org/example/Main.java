@@ -192,6 +192,9 @@ public class Main {
         Object[][] details = {
             {id, fName + " " + lName, birthday},
         };
+        System.out.println("\n========================================");
+        System.out.println("         MOTORPH EMPLOYEE INFORMATION       ");
+        System.out.println("========================================");
         System.out.format("%-11s%-20s%-11s%n", (Object[]) headers);
         System.out.format("%-11s%-20s%-11s%n", details[0]);
     }
