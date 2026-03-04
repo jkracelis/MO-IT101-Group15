@@ -238,7 +238,7 @@ public class Main {
         }
     }
 
-    // Reuse existing deduction logic from Milestone 1
+    // Use existing deduction logic from CSV Motorph Requirement  
     public static double computeSSS(double gross) {
         if (gross >= 24750) return 1125.00;
         if (gross < 3250) return 135.00;
