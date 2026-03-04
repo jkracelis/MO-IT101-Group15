@@ -165,7 +165,9 @@ public class Main {
             System.out.println("  Pag-IBIG: " + pi);
             System.out.println("  Tax: " + tax);
             System.out.println("Total Deductions: " + totalDeduct);
+            System.out.println("========================================");
             System.out.println("Net Salary: " + (gross - totalDeduct));
+            System.out.println("========================================");
         } else {
             System.out.println("Net Salary: " + gross);
         }
